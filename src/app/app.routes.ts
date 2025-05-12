@@ -6,7 +6,6 @@ import { TiendaComponent } from './paginas/tienda/tienda.component';
 
 export const routes: Routes = [
     { path: '', component: InicioComponent },
-    { path: 'inicio', component: InicioComponent },
     { path: 'contactanos', component: ContactanosComponent },
     { path: 'nosotros', component: NosotrosComponent },
     { path: 'tienda', component: TiendaComponent },    
