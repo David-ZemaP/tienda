@@ -1,0 +1,19 @@
+.product-card {
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  .porduct-image-container {
+    width: 100%;
+    height: 250px;
+    overflow-x: clip;
+  }
+  h2 {
+    font-weight: bolder;
+  }
+  img {
+    //height: 100%;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+}
